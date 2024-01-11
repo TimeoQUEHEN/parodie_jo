@@ -1,0 +1,280 @@
+@font-face {
+    font-family: Paris2024;
+    src: url("../fonts/Paris2024-Variable.ttf") format("truetype");
+}
+
+.page_title {
+    text-align: center;
+    background-color: #1a202c;
+    color: goldenrod;
+    border: 1px solid black;
+    font-family: Paris2024;
+    margin-bottom: 1%;
+}
+
+.main_container {
+    background-image: url("../images/gray-lined_bg.png");
+    width: 100%;
+    height: 100%;
+}
+
+table td {
+    background-color: #a0aec0;
+    border: black solid 1px;
+    text-align: center;
+}
+
+tr:first-child  {
+    color: goldenrod;
+    font-family: Paris2024;
+    background-color: #1a202c;
+    border: black solid 1px;
+}
+
+td:nth-child(even) {
+    background-color: #cbd5e0;
+    text-align: center;
+}
+
+img {
+    padding: 1%;
+    display:flex;
+    position: relative;
+    margin: auto;
+}
+
+#recherche {
+    background-color: #cbd5e0;
+    width: fit-content;
+    margin-top:10px;
+    padding-top:1px;
+    padding-left:10px;
+    padding-right:10px;
+    border-top-right-radius: 30px;
+}
+
+#ajout {
+    margin-top:10px;
+    padding-top:1px;
+    padding-left:10px;
+    padding-right:10px;
+    border-top-right-radius: 30px;
+    margin-left: 1%;
+    background-color: #cbd5e0;
+    width: fit-content;
+    font-family: Paris2024;
+}
+
+#boutonGo {
+    font-size: larger;
+    font-family: Paris2024;
+    color: goldenrod;
+    background-color: #1a202c;
+    max-width: 50%;
+    padding: 3% 1%;
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+}
+
+#boutonGo:hover{
+    color: #1a202c;
+    background-color: goldenrod;
+}
+
+#boutonCreation {
+    font-size: larger;
+    font-family: Paris2024;
+    color: goldenrod;
+    background-color: #1a202c;
+    width: 100%;
+    height: 65%;
+}
+
+#boutonCreation:hover{
+    color: #1a202c;
+    background-color: goldenrod;
+}
+
+#boutonLogout {
+    font-size: larger;
+    font-family: Paris2024;
+    color: #1a202c;
+    background-color: #fafafa;
+    border-radius: 7px;
+}
+
+
+#row {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    display: flex;
+    font-family: Paris2024;
+    margin-top: 1%;
+    padding: 1%;
+    background-color: #1a202c;
+}
+
+nav>*{
+    margin-left: 3%;
+    color: goldenrod;
+}
+
+nav>*:last-child{
+    margin-left: 0;
+}
+
+a {
+    align-self: center;
+}
+
+header>nav>*:nth-child(6) {
+    margin-left: 25%;
+}
+
+.formulaire {
+    border-top-right-radius: 30px;
+    margin: auto;
+    background-color: #2d3748;
+    font-family: Paris2024;
+    width: fit-content;
+    padding: 1%;
+    border: 1px solid #ffffff;
+}
+
+.formImage {
+    background-color: #cbd5e0;
+    padding:1%;
+    border-radius: 15px;
+}
+
+.formImage>h2 {
+    margin: 0;
+}
+
+h3, label {
+    color: goldenrod;
+}
+
+.important {
+    background-color: gold;
+    opacity: 50%;
+    margin: auto;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 100%;
+}
+
+#fish {
+    width: 100%;
+}
+
+.ligneShow {
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+.ligneShow>*{
+    margin-right: 1%;
+}
+
+#infoDesc {
+    background-color: #1a202c;
+    font-family: Paris2024;
+    color: goldenrod;
+    padding: 1%;
+    border-radius: 10px;
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+}
+
+#infoPlus {
+    background-color: #cbd5e0;
+    padding:1%;
+    border-radius: 15px;
+
+}
+
+#infoPlus>ul {
+    margin: 0;
+}
+
+#calendrier {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+#oops {
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    padding: 1%;
+    background: #1a202c;
+    font-family: Paris2024;
+    color: goldenrod;
+    border: 1px solid #edf2f7;
+    border-radius: 10px;
+}
+
+.success {
+    display: flex;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: darkgreen;
+    opacity: 50%;
+    margin-top: 1%;
+    margin-left:auto;
+    margin-right:auto;
+    width: fit-content;
+}
+
+.success>* {
+    opacity: 100%;
+}
+
+.error {
+    display: flex;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: darkred;
+    opacity: 50%;
+    margin-top: 1%;
+    margin-left:auto;
+    margin-right:auto;
+    width: fit-content;
+}
+
+.error>* {
+    opacity: 100%;
+}
+
+svg {
+    max-height: 7%;
+    max-width: 7%;
+}
+
+.boutonCouleur {
+    font-size: larger;
+    font-family: Paris2024;
+    color: goldenrod;
+    background-color: #1a202c;
+}
+
+.boutonCouleur:hover{
+    color: #1a202c;
+    background-color: goldenrod;
+}
